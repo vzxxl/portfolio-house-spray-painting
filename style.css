@@ -353,6 +353,32 @@ box-shadow:1px 1px 1px grey;
 	position:absolute;
 	top:1px;
 }
+
+
+
+/***********************************
+     OUR WORKS
+***********************************/
+.our-works {
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:2px;
+	text-shadow:1px 1px grey;
+}
+
+
+
+hr {
+	 border: 0;
+    height: 1px;
+    background: black;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+
+
+
 /***********************************
       FOOTER
 ***********************************/
