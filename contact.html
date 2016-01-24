@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css" type="text/css">
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
-	<title>Технология покраски | Заказать покраску сруба</title>
+	<title>Технология покраски | Как связаться</title>
 	<meta name="description" content="сайт компании Технологии Покраски. Мы занимаемся покраской деревянных поверхностей различного типа, а также сопутствующими работами по дереву.">
 	<meta name="keywords" content="покраска коттеджа, заказать покраску коттеджа, покраска сруба, заказать покрасу сруба, покраска сруба на заказ"></head>
 <body class="body">
@@ -23,23 +23,47 @@
 			</div>
 			<nav class="navigation">
 				<ul class="navigation-list">
+					<a href="index.html">
 					<li class="nav-button">
-						<a href="index.html">Главная</a>
-					</li>
+						<span>Главная</span>
+					</li></a>
+					<a href="our-works.html">
 					<li class="nav-button">
-						<a href="our-works.html">Наши работы</a>
-					</li>
+						<span>Наши работы</span>
+					</li></a>
+					<a href="blog.html">
 					<li class="nav-button">
-						<a href="blog.html">Блог</a>
-					</li>
+						<span>Блог</span>
+											</li></a>
+											<a href="job-offers.html">
 					<li class="nav-button">
-						<a href="job-offers.html">Вакансии</a>
-					</li>
-					<li class="nav-button selected">
-						<a href="contact.html">Контакты</a>
-					</li>
+						<span>Вакансии</span>
+					</li></a>
+					<a href="contact.html">
+					<li class="nav-button  selected">
+						<span>Контакты</span>
+					</li></a>
 				</ul>
 			</nav>
 		</div>
-
 	</header>
+<div class="wrapper">
+	 <div id="map"></div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 59.94119403, lng: 30.27695507},
+          zoom: 18
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+</div>
+	<footer>
+		<p class="copyright">Технологии Покраски &copy; 2016</p>
+		<p class="tel">+7(925)720-70-70</p>
+	</footer>
+</body>
+</html>
